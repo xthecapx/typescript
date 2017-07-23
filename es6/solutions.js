@@ -14,8 +14,7 @@ var numbersE = [-3, 33, 38, 5];
 console.log(Math.min.apply(Math, numbersE));
 // Solution 4
 var newArray = [55, 20];
-newArray.push();
-Array.prototype.push.apply(newArray, numbersE);
+newArray.push.apply(newArray, numbersE);
 console.log(newArray);
 // Solution 5
 var testResults = [3.89, 2.99, 1.38];

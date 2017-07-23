@@ -16,8 +16,7 @@ console.log(Math.min(...numbersE));
 
 // Solution 4
 let newArray = [55, 20];
-newArray.push()
-Array.prototype.push.apply(newArray, numbersE);
+newArray.push(...numbersE);
 console.log(newArray);
 
 // Solution 5
